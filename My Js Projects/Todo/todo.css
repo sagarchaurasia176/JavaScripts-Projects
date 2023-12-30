@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: azure;
+  --color: black;
+  --padding: 1.1rem;
+  --font-family: "Raleway", sans-serif;
+}
+.header {
+  color: var(--color);
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-family: var(--font-family);
+  padding: var(--padding);
+}
+.header img {
+  width: 10rem;
+}
+.container {
+  max-width: 1200px;
+  padding: var(--padding);
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  height: max-content;
+}
+.box-fluid {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.fa-square-plus{
+  font-size: 1.3em;
+  padding: 1.2rem;
+}
+.fa-floppy-disk{
+  padding: 1.2rem;
+  font-size: 1.3em;
+}
+.btn-to-do-list{
+  border: none;
+}
+
+
+
+.typed-bar {
+  padding: 1rem;
+  border-radius: 8px;
+  border-color: black;
+  width: 55rem;
+}
+ 
+.table col {
+  font-weight: bolder;
+  text-align: center;
+}
+.btn-to-do-list:hover {
+  background-color: aquamarine;
+  transition: all 1s;
+  transform: translateZ(1);
+}

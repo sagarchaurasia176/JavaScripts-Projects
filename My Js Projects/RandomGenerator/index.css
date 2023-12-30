@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1300px;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 1.2px;
+  height: auto;
+  margin: 30px auto;
+}
+
+.card input[type="text"] {
+  width: 26rem;
+  padding: 1.1rem;
+  border-radius: 12px;
+  border-color: 2px solid black;
+}
+.card {
+  max-width: 500px;
+  height: auto;
+  padding: 2.2rem;
+  /* background-color: azure; */
+  margin: 10rem auto;
+}
+.btn .button {
+  max-width: 500px;
+  height: auto;
+  background-color: aqua;
+  color: black;
+  padding: 0.9rem;
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.text-generate {
+  color: rgb(255, 6, 6);
+  padding: 1.2rem;
+  border-radius: 12px;
+  text-align: center;
+  background-color: rgb(190, 255, 255);
+  font-size: 2.1rem;
+}
+
+
+#GenerateCode{
+  cursor: pointer;
+}

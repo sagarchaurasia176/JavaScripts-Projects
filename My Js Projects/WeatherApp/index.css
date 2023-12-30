@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+body {
+  background-color: rgb(13, 13, 55);
+}
+.container {
+  max-width: 800px;
+  height: auto;
+  background-color: white;
+  margin: 50px auto;
+  padding: 2.6rem;
+  border-radius: 12px;
+  /* opacity: 0.5; */
+}
+.input-box {
+  max-width: 800px;
+  height: auto;
+  border-color: 2px solid blue;
+}
+.fa-solid {
+  position: absolute;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: -4rem;
+  padding: 1.1rem;
+}
+.input-box input[type="text"] {
+  padding: 1.3rem;
+  width: 100%;
+  border-radius: 12px;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.1rem;
+}
+::placeholder {
+  font-weight: bolder;
+  color: rgb(255, 0, 0);
+}
+.weather {
+  height: auto;
+  max-width: 1200px;
+  background-color: rgb(152, 223, 223);
+  border-radius: 12px;
+  display: none;
+  padding: 1.2rem;
+}
+.weather img {
+  display: flex;
+  margin: 5px 259px auto;
+  width: 13rem;
+}
+.error-not-found {
+  display: none;
+}
+.error-not-found img {
+  margin: 30px auto;
+  border-radius: 50px;
+}
+.error-not-found b {
+  color: red;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 50px 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.text{
+  color: rgb(0, 0, 0);
+  padding: 1.2rem;
+  font-size: 1.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-weight: bolder;
+}
+
+.temp {
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  display: inline-flex;
+  margin-top: 230px;
+  margin-left: -430px;
+}
+.text-of-state {
+  color: rgb(255, 3, 3);
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.1rem;
+  letter-spacing: 5px;
+  margin-top: 350px;
+  margin-left:-150px;
+}
+/* 
+.col{
+  display:flex;
+  justify-content: space-evenly;
+  padding: 1.1rem;
+  border-radius: 12px;
+/* background-color: rgb(42, 255, 109); */
+/* }
+.col img{
+  height: auto;
+  max-width: 120px;
+}
+.col .captions{
+  color: red;
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1.1rem;
+display: flex;
+text-align: center;
+justify-content: center;
+} */

@@ -1,0 +1,66 @@
+@keyframes animation-1 {
+  /* from */
+  from {
+    transform: translateY(55px);
+  }
+  /* to */
+  to {
+    transform: rotate(50deg);
+  }
+}
+
+@keyframes animation-2 {
+  /* from */
+  from {
+    transform: translateX(15px);
+    filter: brightness(85%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes animation-3{
+  /* from */
+  from {
+    transform: translateX(-10vw);
+    filter: brightness(85%);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+@keyframes animation-4 {
+  /* from */
+  from {
+    transform: translateX(55px);
+    filter: brightness(85%);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+
+
+@keyframes animation-6{
+    /* from */
+    from {
+      transform: translateX(55px);
+      filter: brightness(85%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+
+  @keyframes animation-7{
+    /* from */
+    from {
+      transform: translateX(55px);
+      filter: brightness(85%);
+    }
+    to {
+      transform: translateY(20);
+    }
+  }
+  

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Poppins:wght@800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Mochiy+Pop+P+One&display=swap");
+*{
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root {
+  --color: black;
+  --font-size: 1.1em;
+  -padding: 3.1rem;
+  --display: flex;
+  --width: 99vw;
+  --height: 80vh;
+  --font-weight: bold;
+  --font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* img sections */
+.img-class-1 > img {
+  width: 31rem;
+  display: flex;
+  justify-items: center;
+}
+
+.container > .img-class-2 {
+  height: 50vh;
+  width: 35rem;
+}
+
+.container > .img-class-2 > .text-header-1{
+color: black;
+font-family: var(--font-family);
+font-size: var(--font-size);
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.container .text-paragraphs{
+font-family: 'Times New Roman', Times, serif;
+width: 35rem;
+font-size:1.2em;
+padding: 2.1em;
+color:  red;
+}
+.about-section{
+text-align: center;
+justify-content: center;
+color: black;
+font-family: var(--font-family);
+padding: 1.2rem;
+font-weight: bold;
+letter-spacing: 1.1px;
+}

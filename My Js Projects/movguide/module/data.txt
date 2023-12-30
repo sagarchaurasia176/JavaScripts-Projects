@@ -1,0 +1,40 @@
+{Title: 'Dream Girl', Year: '2019', Rated: 'Not Rated', Released: '13 Sep 2019', Runtime: '132 min', …}
+Actors
+: 
+"Ayushmann Khurrana, Nushrratt Bharuccha, Annu Kapoor"
+Awards
+: 
+"1 win & 6 nominations"
+BoxOffice
+: 
+"N/A"
+Country
+: 
+"India"
+DVD
+: 
+"N/A"
+Director
+: 
+"Raaj Shaandilyaa"
+Genre
+: 
+"Comedy, Romance"
+Language
+: 
+"Hindi"
+Metascore
+: 
+"N/A"
+Plot
+: 
+"Rom-com Movie, directed by Raaj Shaandilyaa, stars Ayushmann Khurrana who plays a 'dream girl'. In every love story, there is always one trying to win the heart of the other, who could be the 'dream girl'."
+Poster
+: 
+"https://m.media-amazon.com/images/M/MV5BNmUyMzU3YjgtZTliNS00NWM2LWI5ODgtYWE3ZjAzODgyNjNhXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg"
+Production
+: 
+"N/A"
+Rated
+: 
+"Not Rated"

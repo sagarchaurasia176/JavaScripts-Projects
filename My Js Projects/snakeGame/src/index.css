@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 255, 247);
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+
+#container {
+    width: 70%;
+    margin: 7px auto;
+    border-radius: 12px;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-of-img img {
+    width: 100%;
+    position: relative;
+}
+
+.box-gameplay {
+    width: 50%;
+    height: 68vh;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+    position: absolute;
+    margin-top: -744px;
+    border-radius: 5px;
+    padding: 1.0rem;
+    background-color: rgb(180, 255, 167);
+}
+
+.box-gameplay {
+    gap: 5px;
+}
+
+.head-of-snake {
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.head-of-food {
+    background-color: green;
+    border-radius: 5px;
+}

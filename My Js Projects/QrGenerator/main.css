@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.imgGallery {
+    background-color: aquamarine;
+}
+
+.imgGallery img {
+    width: 45rem;
+    margin: 0 auto;
+}

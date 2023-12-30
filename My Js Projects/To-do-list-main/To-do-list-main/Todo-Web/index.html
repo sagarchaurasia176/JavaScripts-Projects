@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo-web</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="header-logo">
+            👀&nbsp; ToDo-web<br /><br />
+
+            <div class="search-box">
+                <input type="text" id="userInputFiled" placeholder="write your works" />
+                <div class="search-icons">
+                    <i class="fa-solid fa-plus" id="addToContainer"></i>
+                </div>
+            </div>
+        </div>
+        <!-- all data store into this div -->
+        <div class="container-1" id="showDataHere" style="background: none;">
+            <div class="addd-text" style="background: none;">
+                <strong id="userTypePasteHere" class="userInputs"> </strong>
+            </div>
+            <div class="remove-icon">
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>

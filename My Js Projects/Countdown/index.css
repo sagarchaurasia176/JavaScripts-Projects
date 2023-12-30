@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(7, 7, 7);
+}
+.container {
+  max-width: 1350px;
+  height: auto;
+  margin: 2rem auto;
+  padding: 1.1rem;
+}
+.videoMain {
+  max-width: 1300px;
+    z-index: -1;
+position: absolute;
+}
+.count-down span{
+  color: rgb(242, 242, 242);
+  text-align: center;
+  font-size: 4.5rem;
+    z-index: 1234;
+    font-weight: bolder;
+background:rgba(0, 0, 0,0.7);
+border-radius: 25px;
+padding: 1.5rem;
+text-align: center;
+}
+.count-down{
+    margin-top: 35px;
+    margin-left: 200px;
+    letter-spacing: 35px;
+}
+ 
+.text-of-header-part{
+color: white;
+text-align: center;
+font-size: 4.3rem;
+}

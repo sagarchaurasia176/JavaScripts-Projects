@@ -1,0 +1,172 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: blue;
+}
+#wrapper {
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+}
+.container {
+  margin: 10rem auto;
+  height: auto;
+  position: relative;
+  background-color: rgb(183, 183, 210);
+}
+
+.card {
+  width: 35rem;
+  height: 35rem;
+  margin: 0 auto;
+  background-color: rgb(236, 239, 238);
+  border-radius: 12px;
+  animation: card 3s ease-in-out infinite reverse;
+}
+@keyframes card {
+  from {
+    transform: scale(1.2px);
+  }
+  to {
+    transform: scale(1.2px);
+  }
+}
+
+.img-user img {
+  margin: 20px auto;
+  border-radius: 32px;
+  display: flex;
+}
+
+.text-header {
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.paragrah {
+  color: black;
+  text-align: center;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+  text-align: center;
+}
+.modal-box {
+  color: black;
+  padding: 6px;
+  margin: 0px auto;
+  width: 9rem;
+  cursor: pointer;
+}
+
+.modal-box:hover {
+  background-color: rgb(64, 201, 201);
+  transition: all 2s;
+}
+
+.follow-num {
+  color: black;
+  padding: 6px;
+  margin: 0px auto;
+  width: 9rem;
+  cursor: pointer;
+}
+.follow-num:hover {
+  background-color: rgb(225, 232, 232);
+}
+
+.container-modal {
+  width: 28%;
+  border-radius: 12px;
+  margin: -60px 688px auto;
+  height: 19vh;
+  background-color: rgb(12, 27, 25);
+  position: absolute;
+  opacity: 0.9;
+  transform: scale(5px);
+  visibility: hidden;
+}
+.modalBox {
+  visibility: visible;
+  transition: all 2s;
+}
+
+.icon-1 img,
+.icon-2 img,
+.icon-3 img,
+.icon-4 img {
+  width: 3rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.close-modal {
+  display: flex;
+  justify-content: space-around;
+  margin: -20px 500px auto;
+  cursor: pointer;
+}
+
+.main-icon {
+  display: inline-flex;
+  gap: 45px;
+  padding: 1.2rem;
+}
+
+/* round box */
+.round-circle {
+  width: 26vh;
+  height: 26vh;
+  animation: round infinite 2s alternate-reverse ease-in-out;
+  border-radius: 100px;
+  padding: 1.6rem;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 100px;
+  z-index: 1;
+}
+@keyframes round {
+  from {
+    transform: translate(15px, 12px);
+    transform: scale(1.2px);
+  }
+  to {
+    transform: scale(1.2px);
+    box-shadow: 3px 3px rgb(225, 225, 225), -1em 0 0.4em rgb(255, 150, 246);
+  }
+}
+
+/* round box */
+.round-circle-1 {
+  width: 26vh;
+  height: 26vh;
+  animation: rounds infinite 2s alternate-reverse ease-in-out;
+  border-radius: 100px;
+  padding: 1.6rem;
+  position: absolute;
+  margin-top: 480px;
+  margin-left: 700px;
+  z-index: 1;
+}
+@keyframes rounds {
+  from {
+    transform: translate(15px, 12px);
+    transform: scale(1.2px);
+    box-shadow: 3px 3px rgb(255, 0, 0), -1em 0 0.4em rgb(255, 0, 234);
+  }
+  to {
+    background-color: rgb(233, 173, 255);
+    /* cle, rgb(232, 226, 229) 0%, rgba(rgb(99, 194, 237)); */
+  }
+}

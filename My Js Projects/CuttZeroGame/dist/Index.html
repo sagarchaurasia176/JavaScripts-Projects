@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body class="bg-slate-950">
+
+    <div class="max-w-md p-8 mt-44 m-auto bg-white border grid place-items-center border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <!-- upper part container -->
+        <strong class="text-white p-4 font-extrabold text-center text-lg  pl-5">
+            Tic 😁 Tac
+        </strong>
+        <div class="p-1 m-auto w-52 bg-gray-100 border border-gray-200 rounded-md shadow text-center dark:bg-amber-200 dark:border-blue-800">
+            <p class="text-black " id="changePlayer"></p>
+        </div>
+        <br>
+        <!-- main-card -->
+        <div class=" w-72 p-8 mt-2 aspect-square m-auto h-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="relative grid grid-cols-3 aspect-square">
+
+                <div class="box-1 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-2 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-3 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-4 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-5 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-6 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-7 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-8 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+                <div class="box-9 cursor-pointer  mt-1 p-1  text-white to-white font-semibold text-center text-lg" id="squareBox"></div>
+            </div>
+        </div>
+        <br>
+
+        <button type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700
+         dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 in" id="playAgainBtn">Play Again</button>
+
+    </div>
+
+
+
+
+</body>
+<script src="./index.js"></script>
+
+</html>

@@ -1,0 +1,81 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    .header {
+        padding: 1.2rem;
+    }
+    
+    .header .logo {
+        max-width: 185px;
+        width: 50%;
+        font-weight: bolder;
+    }
+    
+    .container .header .logo {
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+    }
+    
+    .search-bar-componenet {
+        position: relative;
+        margin-left: 286px;
+        margin-top: -50px;
+    }
+    
+    .search-bar-componenet input {
+        width: 78%;
+        padding: 1.1rem;
+        outline: none;
+        border-radius: 12px;
+    }
+    
+    .input-bar-with-card-box strong {
+        color: black;
+        padding: 0.9rem;
+        background-color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        display: block;
+        font-weight: 300;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .input-bar-with-card-box :hover {
+        background-color: aquamarine;
+        cursor: pointer;
+    }
+    
+    .search-bar-componenet .search {
+        padding: 1.1rem;
+        background-color: aquamarine;
+        max-width: 200px;
+        width: 15%;
+        font-weight: 800;
+        border-radius: 18px;
+        cursor: pointer;
+    }
+    
+    .container .list-of-product-card {
+        max-width: 1200px;
+        height: auto;
+        padding: 1.0rem;
+        background-color: aquamarine;
+    }
+    
+    .input-bar-with-card-box {
+        max-width: 1200px;
+        height: auto;
+        background-color: whitesmoke;
+        width: 59%;
+        display: none;
+        border-radius: 12px;
+        padding: 1.0em;
+        margin-left: 278px;
+    }

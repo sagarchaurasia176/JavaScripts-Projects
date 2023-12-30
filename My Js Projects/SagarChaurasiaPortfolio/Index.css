@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Poppins:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Mochiy+Pop+P+One&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: black;
+  --font-size: 1.1em;
+  -padding: 3.1rem;
+  --display: flex;
+  --width:90vw;
+  --font-weight: bold;
+  --font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+  display: var(--display);
+  align-items: center;
+  margin-left: 8rem;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+}
+.navbar-nav {
+  margin-left: 28rem;
+}
+.button .btn {
+  width: 8rem;
+}
+.navbar{
+  max-width: 100%;
+}
+.nav-link:hover {
+  background-color: aqua;
+  color: black;
+  border-radius: 12px;
+  transition: all 2s;
+  transform: translateX(15px, 20px);
+}
+.text-formation {
+  color: var(--color);
+  font-size: var(--font-size);
+  display: inline-block;
+  line-height: 1.7px;
+  letter-spacing: 1.5px;
+}
+
+/* next sections */
+.container-1 {
+  width: 50%;
+  display: flex;
+  justify-items: flex-start;
+}
+/* box-1 */
+
+.box-1 {
+background-color: rgb(64, 185, 255);
+}
+.box-2{
+background-color: rgb(255, 255, 255);
+
+}
+.img-section img{
+    width: 32rem;
+    display: flex;
+    margin-top: -15rem;
+    margin-left: 33rem;
+    position: relative;
+}
+.animation-section{
+    position: absolute;
+    margin-top: -51rem;
+    margin-left: 55rem;
+    animation: animation-1 2s alternate-reverse infinite ;
+}
+.animation-section-1{
+    position: absolute;
+    margin-top: -25rem;
+    margin-left: 25rem;
+    animation: animation-2 2s alternate-reverse infinite ;
+}
+.animation-section-2{
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 5rem;
+    animation: animation-3 2s alternate-reverse infinite ;
+}
+ 
+.animation-section-3{
+    position: absolute;
+    margin-top: -45rem;
+    margin-left: 5rem;
+    animation: animation-4 2s alternate-reverse infinite ;
+}
+ 
+.animation-section-4{
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 5rem;
+    animation: animation-5 2s alternate-reverse infinite ;
+}
+ 
+.animation-section-9{
+    position: absolute;
+    margin-top: -40rem;
+    margin-left: -25rem;
+    animation: animation-6 2s alternate-reverse infinite ;
+}
+
+.animation-section-10{
+    position: absolute;
+    margin-top: 5rem;
+    transform: rotate(155deg);
+    margin-left: 25rem;
+    animation: animation-7 2s alternate-reverse infinite ;
+}
+
+ .text-header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20% 10% 0px;
+    width: 35rem;
+    font-weight: var(--font-weight);
+    font-family: 'Mochiy Pop P One', sans-serif;
+ }
+ .typed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3rem;
+    margin-left: -6rem;
+    color: rgb(255, 145, 34);
+    font-weight: bolder;
+ }
+
+ .text-paragraph strong{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 8% 12% 0px;
+    width: 36rem;
+    font-size: var(--font-size);
+ }
+ .main-btn{
+    margin-left: 5rem;
+ }
+
+ .main-btn > .main-btn-1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    padding: em;
+ }
+

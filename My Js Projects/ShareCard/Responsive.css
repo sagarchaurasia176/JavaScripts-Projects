@@ -1,0 +1,15 @@
+@media screen and (min-width: 768px) and (max-width: 1880px) {
+  #wrapper {
+    max-width:100%;
+    height: auto;
+  }
+  .img-user img {
+    height: auto;
+  }
+  .round-circle {
+    height: 26vh;
+  }
+  .round-circle-1 {
+    max-width: 100%;
+  }
+}

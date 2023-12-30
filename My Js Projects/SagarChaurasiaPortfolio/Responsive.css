@@ -1,0 +1,33 @@
+@media screen and (min-width:720px) and (max-width:1880px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+    .container-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 1.1rem;
+  }
+  .text-formation {
+    display: inline-flex;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  /* second container typed js  */
+  .container-1 {
+max-width:100%;
+height: auto;
+  }
+  .box-1 {
+    background-color: rgb(85, 247, 179);
+    max-width: fit-content;
+    }
+    .box-2{
+    background-color: rgb(147, 255, 239);
+    max-width: fit-content;    
+    }
+
+
+}

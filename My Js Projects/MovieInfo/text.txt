@@ -1,0 +1,19 @@
+LAST DATE - 20 
+BEST OF LUCK 
+
+Movie Database:
+
+- Use an API like The Movie Database (TMDb) to fetch movie data.
+Create an array to store movie data (each movie represented as an object with properties 
+like title, releaseDate, genre, etc.).
+
+- Use a for loop to fetch movie data for a specific category (e.g., popular movies, 
+top-rated movies) and populate the array.
+
+- Implement a while loop to allow the user to interact with the movie database,
+ such as searching for movies, filtering by genre, or exiting the application.
+
+- Use the filter function to display movies based on criteria like genre, release year, etc.
+
+- Use map to transform the movie data, such as formatting release dates, displaying only 
+specific information, or creating an HTML representation.

@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  height: auto;
+  padding: 1.2rem;
+  margin: 0rem auto;
+}
+.main-part {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.main-part .inputField {
+  padding: 1.2rem;
+  width: 40rem;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+.main-part #searchButton {
+  padding: 1.2rem;
+  width: 8rem;
+  background-color: rgb(90, 90, 107);
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.card-main {
+  max-width: 30px;
+  padding: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+flex-wrap: wrap-reverse;
+}
+  /* background-color: black; */
+
+.cards img {
+  margin: 0 auto;
+  width: 27rem;
+  height: auto;
+}
+
+.btn{
+    background-color: rgb(213, 213, 225);
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+}
+ 
+.btnMain .button{
+margin: 0 auto;
+display: flex;
+font-size: 1.2rem;
+font-weight: bolder;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

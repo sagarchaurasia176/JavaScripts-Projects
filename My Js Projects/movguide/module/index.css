@@ -1,0 +1,73 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 1200px;
+        height: auto;
+        margin: 50px auto;
+        border-radius: 19px;
+        background-color: rgb(249, 252, 255);
+    }
+    
+    #header-part {
+        height: fit-content;
+        padding: 0.1rem;
+        text-align: center;
+    }
+    
+    .main-input-section-container>[type=text] {
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    
+     ::placeholder {
+        color: black;
+        font-size: 1.0rem;
+    }
+    
+    #header-part strong {
+        color: black;
+        font-weight: 800;
+        padding: 0.1rem;
+        border-radius: 19px;
+        letter-spacing: 1.2px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #hero-sections {
+        max-width: 1200px;
+        height: auto;
+        background-color: aqua;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    #user-click-function {
+        font-size: 1.1rem;
+        color: black;
+        font-size: 1.8rem;
+        color: red;
+        position: absolute;
+        margin-top: 12px;
+        margin-left: -45px;
+        cursor: pointer;
+    }
+    
+    .text-logo {
+        text-align: center;
+        font-weight: bolder;
+        color: black;
+        padding: 1.1rem;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    
+    #user-input-bar {
+        padding: 1.2rem;
+        width: 65%;
+        border-radius: 12px;
+    }

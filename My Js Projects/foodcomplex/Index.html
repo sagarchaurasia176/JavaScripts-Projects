@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Complex</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body class="h-screen">
+    <header class="bg-white w-full flex max-xl:">
+        <nav class="flex p-2">
+            <div class="p-0">
+                <img src="https://t4.ftcdn.net/jpg/01/02/81/99/360_F_102819978_xem651m80l3tEf1miPoFuYEY67zPHtQ5.jpg" alt="" class="w-9" />&nbsp;
+            </div>
+            <strong class="text-black w-auto p-0">Fruit Complex</strong>
+            <!-- search bar concepts -->
+            <search class="flex p-1 ml-60">
+                <input class="placeholder:italic placeholder:text-slate-400 bg-white border border-slate-300 rounded-md py-3 pl-9 pr-4 shadow-sm focus:outline-none focus:border-sky-500 w-[72rem] focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search any fruit name..."
+                    type="text" name="search" id="userTypeField" />
+                <button type="submit" class="bg-blue-300 cursor-pointer w-28 outline-none">
+            <i class="fa-solid fa-magnifying-glass" id="searchButton"></i>
+          </button>
+            </search>
+        </nav>
+    </header>
+    <br />
+    <div class="container m-0 ml-[10%] bg-white p-0 flex h-auto w-11/12">
+        <div class="result grid grid-cols-4 gap-12 rounded-md mt-10 ml-[11rem]">
+            <!-- img container -->
+            <img class="w-[16rem]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTos-Ls7tHlDvN2j337jm-VRAzflgakZJMUo1tklDx0Nn-4NiWVrpi1QAhESL34sk1XLXs&usqp=CAU" alt="" />
+        </div>
+    </div>
+    <footer class="bg-black p-4 text-center mt-48 text-white text-sm font-medium">
+        Copyright © 2023 || All right reserved
+    </footer>
+</body>
+<script src="./main.js"></script>
+
+</html>

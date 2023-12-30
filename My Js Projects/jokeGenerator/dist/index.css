@@ -1,0 +1,88 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* main root */
+    
+     :root {
+        --main-color: rgb(0, 26, 255);
+        --pane-padding: 5px 42px;
+        --background-color: rgb(255, 94, 0);
+        --padding: 1.1rem;
+        --font-size: 1.0em;
+        --display: flex;
+        --margin: 0 auto;
+        --animation: moving 2s ease-in-out infinite reverse;
+        --flex-wrap: wrap;
+        --display: grid;
+        --grid-template-columns: repeat(3, 1fr);
+        --grid-template-rows: repeat(3, 1fr);
+        --grid-column-start: 0;
+        --grid-column-end: 3;
+        --font-family: 'Poppins', sans-serif;
+        --background-image: url('');
+        --background-position: 100%;
+        --background-size: cover;
+        --background-repeat: no-repeat;
+        --border-radius: 12px;
+        --border-bottom: 2px solid black;
+    }
+    
+    .container {
+        margin: 5% auto;
+        padding: 1.1rem;
+        display: flex;
+        max-width: 1200px;
+        height: auto;
+        width: 50%;
+        background-color: var(--background-color);
+    }
+    
+    .card-box {
+        background-color: wheat;
+        height: auto;
+        width: 60%;
+        padding: var(--padding);
+        margin: 0 auto;
+        max-width: 1200px;
+        border-radius: 12px;
+    }
+    
+    .card-box .emojy-img img {
+        width: 10rem;
+        border-radius: 15px;
+        display: flex;
+        margin: 0 auto;
+        padding: 1.0rem;
+    }
+    
+    .card-box strong {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 1.3rem;
+        padding: 1.0rem;
+    }
+    
+    .card-box .paragraph-of-quotes {
+        width: 95%;
+        padding: 2.3rem;
+        text-align: center;
+        height: auto;
+    }
+    
+    .card-box .generate {
+        padding: 1.3rem;
+        text-align: center;
+        font-weight: bolder;
+        cursor: pointer;
+        background-color: aquamarine;
+    }

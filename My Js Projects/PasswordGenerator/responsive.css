@@ -1,0 +1,53 @@
+@media screen and (min-width: 668px) and (max-width: 1140px) {
+  .container {
+    width: 100%;
+    background-color: aqua;
+  }
+  .navbar {
+    max-width: 100%;
+    background-color: aquamarine;
+    padding: 1rem;
+  }
+  .navbar img {
+    width: 10rem;
+    margin: 0 auto;
+  }
+  .card-of-password-generator {
+    max-width: 100%;
+  }
+  .password-box {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  ::placeholder {
+    font-size: 22px;
+  }
+}
+
+/* mobile devices */
+
+@media screen and (min-width: 355px) and (max-width: 667px) {
+  .container {
+    width: 100%;
+    background-color: blue;
+  }
+
+  .password-box {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  ::placeholder {
+    font-size: 17px;
+  }
+  /* .card-of-password-generator{ */
+  .card-of-password-generator {
+    max-width: 100%;
+    background-color: rgb(9, 13, 12);
+  }
+  .password-boxs {
+    max-width: 100%;
+  }
+  .audio-tag input {
+    max-width: 100%;
+  }
+}
